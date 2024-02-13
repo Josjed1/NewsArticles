@@ -46,6 +46,8 @@ def dissassemble():
     inFile.close()
     # Dissassembly finished
 
+
+### This is where it starts the Simulation and Prints 
 def simulate():
     registers = [0] * 32
     memory = [0] * 1024
